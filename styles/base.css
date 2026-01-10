@@ -16,9 +16,8 @@
 body {
     display: grid;
     gap: 1rem;
-
-    font-family: "New Rocker", system-ui;
-    font-family: "Quintessential", serif;
+    /* font-family: "New Rocker", system-ui;
+    font-family: "Quintessential", serif; */
 }
 
 h1 {
