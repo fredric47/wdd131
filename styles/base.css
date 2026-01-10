@@ -1,0 +1,121 @@
+
+:root {
+    --main-color: rgb(4, 184, 201);
+    --secondary-color: rgb(255, 215, 57);
+    --fontsize_large: 30px;
+    --fontsize_small: 15px;
+    --heading_font: "New Rocker";
+    --text_font: "Quintessential";
+    /* --header_font_weight: 250; */
+}
+
+/* header {
+
+} */
+
+body {
+    display: grid;
+    gap: 1rem;
+
+    font-family: "New Rocker", system-ui;
+    font-family: "Quintessential", serif;
+}
+
+h1 {
+    font-family: var(--heading_font);
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    font-size: var(--fontsize_small);
+    padding: .5rem;
+}
+
+nav a {
+    border: 2px solid var(--secondary-color);
+    padding: 4px 7px;
+}
+
+nav a:hover {
+    border: 2px solid var(--main-color);
+    background-color: rgba(0, 0, 0, 0.118);
+}
+
+#course-title {
+    font-family: var(--heading_font);
+    background-color: var(--main-color);
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: var(--fontsize_large)
+}
+
+img {
+    width: 175px;
+    height: auto;
+}
+
+section {
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.bothsections {
+    display: flex;
+}
+
+.bothsections section:first-child {
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 1rem;
+}
+
+.bothsections section:last-child {
+    flex: 1;
+}
+
+.bothsections section:first-child h2 {
+    grid-column: 1/-1;
+}
+
+.bothsections section:first-child .country {
+    grid-column: 1/-1;
+    border: none;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(255, 243, 225, 0.675);
+
+    /* 7. Layout the main column cards using CSS Grid. */
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+}
