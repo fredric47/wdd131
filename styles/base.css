@@ -13,14 +13,13 @@
 
 } */
 
-body {
+/* body {
     display: grid;
     gap: 1rem;
-}
+} */
 
 h1 {
     font-family: var(--heading_font);
-    /* display: block; */
     text-align: center;
 }
 
