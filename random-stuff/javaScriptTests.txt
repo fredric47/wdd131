@@ -1,0 +1,29 @@
+let todayDate = new Date();
+
+
+
+let weekName = todayDate.toLocaleDateString('en-us', {weekday: 'long'});
+
+
+let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+
+
+for (let i = 0; i < daysOfWeek.length; i++) // maybe? " i<= "
+{
+    if (daysOfWeek[i] == weekName)
+    {
+            let z = 0;
+            while (z != 4) {
+                i++
+                z++
+                if (i > daysOfWeek.length)
+                {
+                    i = 0;
+                }
+                console.log(daysOfWeek[i]);
+        }
+        
+    }
+}
+
