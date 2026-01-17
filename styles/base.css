@@ -1,7 +1,7 @@
 
 :root {
-    --main-color: rgb(4, 184, 201);
-    --secondary-color: rgb(255, 215, 57);
+    --main-color: rgb(148, 227, 234); /*rgb(4, 184, 201);*/
+     --secondary-color: rgb(255, 215, 57); /* rgb(255, 215, 57) */
     --fontsize_large: 30px;
     --fontsize_small: 15px;
     --heading_font: "New Rocker";
@@ -37,7 +37,7 @@ h2 {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: var(--secondary-color);
+    background-color: var(--main-color);
     font-size: var(--fontsize_small);
     padding: .5rem;
 }
@@ -121,7 +121,7 @@ section {
 }
 
 .card {
-    background-color: rgba(255, 243, 225, 0.675);
+    background-color: rgb(248, 245, 241);
 
     /* 7. Layout the main column cards using CSS Grid. */
 }
