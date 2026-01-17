@@ -1,6 +1,39 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
 header {
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3rem;
+    width: 75vw;
+    margin: 0 auto;
+    background-color: rgba(137, 43, 226, 0.195);
+}
+
+#menu {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    align-items: center;
+    font-family: var(--text_font);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.navigation li {
+    display: block;
+    padding: .5rem;
+    font-family: var(--text_font);
 }
 
 }

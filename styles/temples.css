@@ -1,3 +1,4 @@
+
 :root {
     --main-color: rgb(148, 227, 234);
     /*rgb(4, 184, 201);*/
@@ -8,6 +9,44 @@
     --heading_font: "New Rocker";
     --text_font: "Quintessential";
     /* --header_font_weight: 250; */
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    padding: .5rem .75rem;
+    background-color: #eee;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: left;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
 }
 
 header {
@@ -38,17 +77,27 @@ nav a:hover {
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 75vw;
     margin: 0 auto;
     background-color: rgba(137, 43, 226, 0.195);
-    justify-content: center;
 }
 
 main h1 {
-    flex-basis: 100%;
-    background-color: rgba(165, 42, 42, 0.523);
-    width: 100%;
-    order: -1;
+    grid-column: 1/-1;
+    background-color: rgba(165, 42, 42, 0.441);
+}
+
+img {
+    border: solid black 2px;
+    padding: 2px;
+}
+
+footer {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
 }
