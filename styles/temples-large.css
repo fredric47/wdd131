@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--main-color);
 }
 
 main {
@@ -9,7 +9,6 @@ main {
     gap: 3rem;
     width: 75vw;
     margin: 0 auto;
-    background-color: rgba(137, 43, 226, 0.195);
 }
 
 #menu {
