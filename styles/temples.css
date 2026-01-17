@@ -1,0 +1,54 @@
+:root {
+    --main-color: rgb(148, 227, 234);
+    /*rgb(4, 184, 201);*/
+    --secondary-color: rgb(255, 215, 57);
+    /* rgb(255, 215, 57) */
+    --fontsize_large: 30px;
+    --fontsize_small: 15px;
+    --heading_font: "New Rocker";
+    --text_font: "Quintessential";
+    /* --header_font_weight: 250; */
+}
+
+header {
+    background-color: var(--main-color);
+}
+
+h1 {
+    font-family: var(--heading_font);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    font-family: var(--text_font);
+}
+
+nav a {
+    border: solid black 2px;
+    padding: 5px;
+}
+
+nav a:hover {
+    border: solid red 2px;
+    background-color: rgba(202, 202, 202, 0.512);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    margin: 0 auto;
+    background-color: rgba(137, 43, 226, 0.195);
+    justify-content: center;
+}
+
+main h1 {
+    flex-basis: 100%;
+    background-color: rgba(165, 42, 42, 0.523);
+    width: 100%;
+    order: -1;
+}
