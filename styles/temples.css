@@ -8,6 +8,10 @@
     --text_font: "Quintessential";
 }
 
+button {
+    border: none;
+}
+
 #menu {
     display: block;
     font-size: 2rem;
