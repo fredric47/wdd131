@@ -13,9 +13,14 @@ header {
     background-color: var(--main-color);
 }
 
+h1 {
+    font-family: var(--heading_font);
+}
+
 h2 {
     background-color: var(--secondary-color);
     padding: .2rem 1rem;
+    font-family: var(--text_font);
 }
 
 picture img{
