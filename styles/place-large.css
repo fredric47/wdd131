@@ -1,0 +1,27 @@
+@media screen and (min-width: 780px) {
+
+picture {
+    position: relative;
+}
+
+.data {
+    position: absolute;
+    top: 15vh;
+    left: 5vh;
+}
+
+.weather {
+    position: absolute;
+    top: 30vh;
+    right: 5vh;
+}
+
+#weathericon {
+    display: none;
+}
+
+#weather-h2::after {
+    content: "⛅";
+}
+
+}

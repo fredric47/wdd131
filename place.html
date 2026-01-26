@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place I live</title>
+    <meta name="description" content="A page giving details about the location I live">
+    <meta name="author" content="Luke Pratt">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Quintessential&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="hero">HEADER</h1>
+    </header>
+    <body>
+        <picture>
+            <source media="(min-width: 780px)" srcset="images/baldeagleflying2.webp">
+            <img src="images/baldEagleSmall.webp" alt="eagle small">
+        </picture>
+
+        <div class="data">
+            <h2>Data:</h2>
+            <ul>
+                <li><span class="category">Area: </span><span id="area">large</span></li>
+                <li><span class="category">Population: </span><span id="population">big</span></li>
+                <li><span class="category">Capital: </span><span id="capital">DC</span></li>
+                <li><span class="category">Language: </span><span id="language">English</span></li>
+            </ul>
+        </div>
+        <div class="weather">
+            <h2 id="weather-h2">Weather:<img src="images/weatherIcon.svg" alt="weather icon" id="weathericon"></h2>
+            <ul>
+                <li><span class="category">Temperature: </span><span id="temp">47°F</span></li>
+                <li><span class="category">Conditions: </span><span id="conditions">Partly Cloudy</span></li>
+                <li><span class="category">Wind: </span><span id="windSpeed">9 mph</span></li>
+                <li><span class="category">Wind Chill: </span><span id="windChill">yes</span></li>
+            </ul>
+        </div>
+    </body>
+    <footer>
+        <p>©️<span id="currentYear"></span> | Luke Pratt | USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

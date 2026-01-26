@@ -1,0 +1,73 @@
+:root {
+    --main-color: rgb(255, 165, 165);
+    --secondary-color: rgb(165, 165, 255);
+    --accent-white: rgb(255, 255, 255);
+    --heading_font: "New Rocker";
+    --text_font: "Quintessential";
+}
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}
+
+h2 {
+    background-color: var(--secondary-color);
+    padding: .2rem 1rem;
+}
+
+picture img{
+    width: 100%;
+}
+
+#weathericon {
+    width: 3rem;
+}
+
+div {
+    background-color: var(--accent-white);
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid var(--main-color);
+    padding: .1rem;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid var(--main-color);
+    padding: .1rem;
+}
+
+.weather ul {
+    list-style: none;
+    padding: .5rem;
+}
+
+.data ul {
+    list-style: none;
+    padding: .5rem;
+}
+
+.category {
+    font-size: large;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+

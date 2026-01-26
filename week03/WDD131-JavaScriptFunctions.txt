@@ -1,0 +1,25 @@
+let firstName = 'John';
+let lastName = 'Smith';
+
+
+function fullName (firstName, lastName) {
+	return `${firstName} ${lastName}`;
+}
+
+
+var fullName = fullName(firstName, lastName) {
+return `${firstName} ${lastName}`;
+
+}
+
+const fullName = (first, last) => `${firstName} ${lastName}`;
+
+
+
+
+function display(fullName) {
+	document.getElementById("fullName").textCOntent = fullName;
+}
+
+
+document.querySelector('#fullName').innerHTML = fullName(firstName, lastName)
