@@ -1,0 +1,31 @@
+h1 {
+    background-color: rgb(190, 248, 248);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer{
+    background-color: rgb(190, 248, 248);
+    text-align: center;
+    padding: .5rem;
+}

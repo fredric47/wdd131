@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin: 1.5rem auto;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: smaller;
+}
+
+/* th {
+    border: 2px solid rgb(0, 0, 0);
+    padding: .5rem;
+} */
+
+th,
+td { 
+    border: 2px solid rgb(0, 0, 0);
+    padding: .5rem;
+    text-align: center;
+}
+
+#tier {
+    background-color: rgb(215, 215, 215);
+}
+
+.aheader {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(215, 215, 215);
+}
