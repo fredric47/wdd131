@@ -106,7 +106,6 @@ main h2 {
 
 img {
     max-width: 90%;
-    align-items: bottom;
     box-shadow: 0 0 15px;
     border: solid black .1rem;
 }
