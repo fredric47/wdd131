@@ -35,6 +35,7 @@ div p {
 
 div {
     justify-content: center;
+    font-family: var(--main-font);
 }
 
 img {
