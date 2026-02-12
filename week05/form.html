@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-wide.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <label>
+                    First Name*
+                    <input type="text">
+                </label>
+                <label>
+                    Product Name* 
+                    <select name="reviewProduct" id="product" required>
+                        <option value="default" disabled selected>Select a Product ...</option>
+                        <option value="first">first</option>
+                        <option value="second">second</option>
+                        <option value="third">third</option>
+                        <option value="fourth">fourth</option>
+                        <option value="fifth">fifth</option>
+                        <option value="sixth">sixth</option>
+                        <option value="seventh">seventh</option>
+                    </select>
+                </label>
+                <label>
+                    Overall Rating
+                    <label for="">
+                        <label for=""></label>
+                        <input type="radio" name="rating">
+                        <input type="radio" name="rating">
+                        <input type="radio" name="rating">
+                        <input type="radio" name="rating">
+                        <input type="radio" name="rating">
+                    </label>
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>©️<span id="currentYear"></span> | Luke Pratt | USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

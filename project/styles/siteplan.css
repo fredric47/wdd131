@@ -29,6 +29,20 @@ div p {
     padding: 1rem;
 }
 
+#wireframes {
+    display: flex;
+}
+
+div {
+    justify-content: center;
+}
+
+img {
+    width: 20vw;
+    padding: 2rem;
+    border: 5px solid var(--secondary-color);
+}
+
 footer {
     background-color: var(--main-color);
     color: var(--accent-color);

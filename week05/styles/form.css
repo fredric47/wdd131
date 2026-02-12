@@ -1,0 +1,20 @@
+header {
+    background-color: rgb(226, 226, 244);
+    padding: 1rem;
+    text-align:  center;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+form {
+    width: 60vw;
+}
+
+footer {
+    background-color: rgb(226, 226, 244);
+    padding: 1rem;
+    text-align: center;
+}
