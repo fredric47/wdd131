@@ -1,5 +1,10 @@
+:root {
+    --main-color: rgb(193, 222, 200);
+    --secondary-color: rgb(244, 247, 245);
+}
+
 header {
-    background-color: rgb(226, 226, 244);
+    background-color: var(--main-color);
     padding: 1rem;
     text-align:  center;
 }
@@ -10,11 +15,65 @@ main {
 }
 
 form {
-    width: 60vw;
+    background-color: var(--secondary-color);
+    margin: 1rem;
+}
+
+form fieldset {
+    display: grid;
+    padding: 1.1rem;
+}
+
+label {
+    margin: .5rem;
+}
+
+#radiodiv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    width: fit-content;
+}
+
+#radiodiv label {
+    background-color: white;
+}
+
+#checkboxdiv label{
+    display: flex;
+    align-items: center;
+    border: solid 1px var(--main-color);
+}
+
+#praiting {
+    grid-column: 1 /-1;
+}
+
+#radiodiv label {
+    
+    border: solid 1px var(--main-color);
+    padding: .2rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* max-width: 3rem; */
+    min-height: 45px;
+}
+
+textarea {
+   
+}
+
+#formsubmit {
+    margin: 1rem;
+}
+
+.enoughheight {
+    height: 45px;
 }
 
 footer {
-    background-color: rgb(226, 226, 244);
+    background-color: var(--main-color);
     padding: 1rem;
     text-align: center;
 }
