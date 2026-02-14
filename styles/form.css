@@ -40,19 +40,20 @@ label {
 
 }
 
-#checkboxdiv > label{
+#checkboxdiv > div{
     display: flex;
     background-color: white;
     width: 50%;
     align-items: center;
     border: solid 1px var(--main-color);
+    margin: .2rem;
 }
 
 #praiting {
     grid-column: 1 /-1;
 }
 
-#radiodiv > label {
+#radiodiv > div {
     background-color: white;
     border: solid 1px var(--main-color);
     padding: .2rem;
@@ -61,6 +62,7 @@ label {
     justify-items: center;
     /* max-width: 3rem; */
     min-height: 45px;
+    margin: .2rem;
 }
 
 #formsubmit {
