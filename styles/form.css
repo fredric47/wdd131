@@ -35,9 +35,6 @@ label {
     width: fit-content;
 }
 
-#radiodiv label {
-    background-color: white;
-}
 
 #checkboxdiv label{
     display: flex;
@@ -50,7 +47,7 @@ label {
 }
 
 #radiodiv label {
-    
+    background-color: white;
     border: solid 1px var(--main-color);
     padding: .2rem;
     display: grid;
