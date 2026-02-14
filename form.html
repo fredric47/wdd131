@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Review Test Form</title>
+    <meta name="description" content="A form made to appear as a product review form all while practicing HTML CSS and JavaScript">
+    <meta name="author" content="Luke Pratt">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/form-wide.css">
     <script src="scripts/form.js" defer></script>
@@ -16,52 +18,36 @@
         <form method="get" action="review.html">
             <fieldset>
 
-                <label>
-                    <p>Product Name*</p>
-                    <select name="reviewProduct" id="product" class="enoughheight" required>
-                        <option value="" disabled selected hidden>Select a Product ...</option>
-                        <option value="first">first</option>
-                        <option value="second">second</option>
-                        <option value="third">third</option>
-                        <option value="fourth">fourth</option>
-                        <option value="fifth">fifth</option>
-                        <option value="sixth">sixth</option>
-                        <option value="seventh">seventh</option>
-                    </select>
-                </label>
+                <label for="product">Product Name*</label>
+                <select name="reviewProduct" id="product" class="enoughheight" required>
+                    <option value="" disabled selected hidden>Select a Product ...</option>
+                </select>
+                
                 
                 <div id="radiodiv">
                     <p id="praiting">Overall Raiting*</p>
-                    <label>
-                        <span>1</span>
-                        <input type="radio" name="review" id="rait1" value="1" required>
-                    </label>
+                    <label for="rait1">1</label>
+                    <input type="radio" name="review" id="rait1" value="1" required>
+                    
 
-                    <label>
-                        <span>2</span>
-                        <input type="radio" name="review" id="rait2" value="2" required>
-                    </label>
+                    <label for="rait2">2</label>
+                    <input type="radio" name="review" id="rait2" value="2" required>
+                    
 
-                    <label>
-                        <span>3</span>
-                        <input type="radio" name="review" id="rait3" value="3" required>
-                    </label>
+                    <label for="rait3">3</label>
+                    <input type="radio" name="review" id="rait3" value="3" required>
+                    
 
-                    <label>
-                        <span>4</span>
-                        <input type="radio" name="review" id="rait4" value="4" required>
-                    </label>
+                    <label for="rait4">4</label>
+                    <input type="radio" name="review" id="rait4" value="4" required>
+                    
 
-                    <label>
-                        <span>5</span>
-                        <input type="radio" name="review" id="rait5" value="5" required>
-                    </label>
+                    <label for="rait5">5</label>
+                    <input type="radio" name="review" id="rait5" value="5" required>
                 </div>
 
-                <label>
-                    <p>When was your product installed?*</p>
-                    <input type="date" id="date" name="date" class="enoughheight" required>
-                </label>
+                <label for="date">When was your product installed?*</label>
+                <input type="date" id="date" name="date" class="enoughheight" required>
 
                 <div id="checkboxdiv">
                     <p>Which features did you find usefull in this product?</p>
@@ -72,15 +58,13 @@
                     <label><input type="checkbox" id="checkbox4" name="checkbox4" value="desing" class="enoughheight">Design</label>
                 </div>
 
-                <div id="textarea"></div>
-                    <p>Writen Review (Optional)</p>
-                    <textarea name="textarea" id="textarea" class="enoughheight"></textarea>
+                <div id="textarea">
+                    <label for="textareaBody">Writen Review (Optional)</label>
+                    <textarea name="textarea" id="textareaBody" class="enoughheight"></textarea>
                 </div>
 
-                <label>
-                    <p>Your Name (Optional)</p>
-                    <input type="text" name="name" id="name" class="enoughheight">
-                </label>
+                <label for="name">Your Name (Optional)</label>
+                <input type="text" name="name" id="name" class="enoughheight">
                 
                 <input id="formsubmit" type="submit" value="Post Review" class="enoughheight">
 
