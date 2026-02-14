@@ -25,7 +25,7 @@ form fieldset {
 }
 
 label {
-    margin: .5rem;
+    margin: .2rem;
 }
 
 #radiodiv {
@@ -33,11 +33,17 @@ label {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto auto;
     width: fit-content;
+    padding: .25rem;
 }
 
+#checkboxdiv {
 
-#checkboxdiv label{
+}
+
+#checkboxdiv > label{
     display: flex;
+    background-color: white;
+    width: 50%;
     align-items: center;
     border: solid 1px var(--main-color);
 }
@@ -46,7 +52,7 @@ label {
     grid-column: 1 /-1;
 }
 
-#radiodiv label {
+#radiodiv > label {
     background-color: white;
     border: solid 1px var(--main-color);
     padding: .2rem;
@@ -63,6 +69,19 @@ label {
 
 .enoughheight {
     height: 45px;
+}
+
+.sectionpadding {
+    padding-top: 2rem;
+}
+
+#textarea {
+    display: grid;
+}
+
+#namearea {
+    display: grid;
+    width: 75px;
 }
 
 footer {

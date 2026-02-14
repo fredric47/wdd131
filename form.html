@@ -25,56 +25,79 @@
                 
                 
                 <div id="radiodiv">
-                    <p id="praiting">Overall Raiting*</p>
-                    <label for="rait1">1</label>
-                    <input type="radio" name="review" id="rait1" value="1" required>
+                    <p id="praiting" class="sectionpadding">Overall Raiting*</p>
+
+                    <label>
+                        <label for="rait1">1</label>
+                        <input type="radio" name="review" id="rait1" value="1" required>
+                    </label>
                     
 
-                    <label for="rait2">2</label>
-                    <input type="radio" name="review" id="rait2" value="2" required>
+                    <label>
+                        <label for="rait2">2</label>
+                        <input type="radio" name="review" id="rait2" value="2" required>
+                    </label>
                     
 
-                    <label for="rait3">3</label>
-                    <input type="radio" name="review" id="rait3" value="3" required>
+                    <label>
+                        <label for="rait3">3</label>
+                        <input type="radio" name="review" id="rait3" value="3" required>
+                    </label>
                     
 
-                    <label for="rait4">4</label>
-                    <input type="radio" name="review" id="rait4" value="4" required>
+                    <label>
+                        <label for="rait4">4</label>
+                        <input type="radio" name="review" id="rait4" value="4" required>
+                    </label>
                     
 
-                    <label for="rait5">5</label>
-                    <input type="radio" name="review" id="rait5" value="5" required>
+                    <label>
+                        <label for="rait5">5</label>
+                        <input type="radio" name="review" id="rait5" value="5" required>
+                    </label>
                 </div>
 
-                <label for="date">When was your product installed?*</label>
+                <label for="date" class="sectionpadding">When was your product installed?*</label>
                 <input type="date" id="date" name="date" class="enoughheight" required>
 
-                <div id="checkboxdiv">
+                <div id="checkboxdiv" class="sectionpadding">
                     <p>Which features did you find usefull in this product?</p>
                     <p>(Check all that apply)</p>
 
-                    <label for="checkbox1">Duribility</label>
-                    <input type="checkbox" id="checkbox1" name="checkbox1" value="duribility" class="enoughheight">
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" value="duribility" class="enoughheight">
+                        <label for="checkbox1">Duribility</label>
+                    </label>
 
-                    <label for="checkbox2">Ease of use</label>
-                    <input type="checkbox" id="checkbox2" name="checkbox2" value="easy" class="enoughheight">
+                    <label>
+                        <input type="checkbox" id="checkbox2" name="checkbox2" value="easy" class="enoughheight">
+                        <label for="checkbox2">Ease of use</label>
+                    </label>
 
-                    <label for="checkbox3">Performance</label>
-                    <input type="checkbox" id="checkbox3" name="checkbox3" value="performance" class="enoughheight">
+                    <label>
+                        <input type="checkbox" id="checkbox3" name="checkbox3" value="performance" class="enoughheight">
+                        <label for="checkbox3">Performance</label>
+                    </label>
 
-                    <label for="checkbox4">Design</label>
-                    <input type="checkbox" id="checkbox4" name="checkbox4" value="desing" class="enoughheight">
+                    <label>
+                        <input type="checkbox" id="checkbox4" name="checkbox4" value="desing" class="enoughheight">
+                        <label for="checkbox4">Design</label>
+                    </label>
                 </div>
 
-                <div id="textarea">
+                <div id="textarea" class="sectionpadding">
                     <label for="textareaBody">Writen Review (Optional)</label>
                     <textarea name="textarea" id="textareaBody" class="enoughheight"></textarea>
                 </div>
 
-                <label for="name">Your Name (Optional)</label>
-                <input type="text" name="name" id="name" class="enoughheight">
+                <div id="namearea" class="sectionpadding">
+                    <label for="name">Your Name (Optional)</label>
+                    <input type="text" name="name" id="name" class="enoughheight">
+                </div>
                 
-                <input id="formsubmit" type="submit" value="Post Review" class="enoughheight">
+                <div class="sectionpadding">
+                    <input id="formsubmit" type="submit" value="Post Review" class="enoughheight">
+                </div>
 
             </fieldset>
 
