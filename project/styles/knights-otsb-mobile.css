@@ -7,162 +7,186 @@
     --font-size-large: 20px;
     --font-size-medium: 15px;
 }
-    main {
-        margin: auto;
-        width: 90vw;
-        font-family: var(--main-font);
-        text-align: center;
-        color: var(--secondary-color);
-    }
 
-    header {
-        background-color: var(--main-color);
-        color: var(--accent-color);
-        padding: 1rem;
-        font-size: var(--font-size-large);
-    }
+main {
+    margin: auto;
+    width: 90vw;
+    font-family: var(--main-font);
+    text-align: center;
+    color: var(--secondary-color);
+}
 
-    h1 {
-        color: var(--accent-color);
-        text-align: center;
-        font-family: var(--heading-font);
-    }
+header {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    padding: 1rem;
+    font-size: var(--font-size-large);
+}
 
-    section {
-        display: grid;
-        border: solid 2px var(--secondary-color);
-        padding: .7rem;
-        margin: .7rem;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-        font-size: var(--font-size-large);
-    }
+h1 {
+    color: var(--accent-color);
+    text-align: center;
+    font-family: var(--heading-font);
+}
 
-    #submitdiv {
-        height: 50px;
-        padding: .5rem;
-        margin: .5rem;
-    }
+section {
+    display: grid;
+    border: solid 2px var(--secondary-color);
+    padding: .7rem;
+    margin: .7rem;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: var(--font-size-large);
+}
 
-    #submitbutton {
-        padding: 1rem 1.5rem;
-        margin: .2rem;
-    }
+#submitdiv {
+    height: 50px;
+    padding: .5rem;
+    margin: .5rem;
+}
 
-    #submitbutton:hover {
-        background-color: var(--secondary-color);
-        color: var(--accent-color);
-        border: solid 1px var(--accent-color);
-    }
+#submitbutton {
+    padding: 1rem 1.5rem;
+    margin: .2rem;
+}
 
-    #sectionform {
-        justify-content: center;
-    }
+#submitbutton:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border: solid 1px var(--accent-color);
+}
 
-    nav {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: 1fr 1fr;
-        justify-content: space-around;
-        font-family: var(--main-font);
-        font-size: var(--font-size-medium);
-        align-items: center;
-    }
+#sectionform {
+    justify-content: center;
+}
 
-    nav a {
-        color: var(--accent-color);
-        border: solid 2px var(--accent-color);
-        padding: .5rem 1.5rem;
-        margin: .2rem;
-        height: 1rem;
-    }
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    font-family: var(--main-font);
+    font-size: var(--font-size-medium);
+    align-items: center;
+}
 
-    #navlearnchess {
-        grid-row: 1/-1;
-        padding: 1.75rem;
-    }
+nav a {
+    color: var(--accent-color);
+    border: solid 2px var(--accent-color);
+    padding: .5rem 1.5rem;
+    margin: .2rem;
+    height: 1rem;
+}
 
-    nav a:hover {
-        background-color: var(--secondary-color);
-    }
+#navlearnchess {
+    grid-row: 1/-1;
+    padding: 1.75rem;
+}
 
-    section > img {
-        width: 90%;
-        border: solid 2px black;
-    }
+nav a:hover {
+    background-color: var(--secondary-color);
+}
 
-    .radioclass {
-        /* height: 44px;
-        width: 44px; */
-        justify-content: center;
-    }
+section img {
+    width: 90%;
+    border: solid 2px black;
+}
 
-    form {
-        width: 80vw;
-        padding: 1rem;
-        margin: 1rem;
-        font-size: var(--font-size-large);
-    }
+.radioclass {
+    /* height: 44px;
+    width: 44px; */
+    justify-content: center;
+}
 
-    #formdescription {
-        background-color: color-mix(in srgb, var(--accent-color), rgb(255, 255, 255) 93%);
-        min-height: 45px;
-        width: 60vw;
-    }
+form {
+    width: 80vw;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: var(--font-size-large);
+}
 
-    fieldset {
-        background-color: color-mix(in srgb, var(--secondary-color), rgb(255, 255, 255) 93%);
-        padding: .5rem;
-        margin: .2rem;
-    }
+#formdescription {
+    background-color: color-mix(in srgb, var(--accent-color), rgb(255, 255, 255) 93%);
+    min-height: 45px;
+    width: 60vw;
+}
 
-
-    #radiodiv {
-        display: grid;
-        justify-content: center;
-    }
-
-    #radiodiv label {
-        border: 1px solid var(--secondary-color);
-        background-color: color-mix(in srgb, var(--accent-color), rgb(255, 255, 255) 93%);;
-        display: flex;
-        padding: 1rem;
-        margin: .5rem;
-    }
-
-    #divformdescription {
-        justify-content: center;
-        padding: .5rem;
-        margin: .5rem;
-        display: grid;
-    }
+fieldset {
+    background-color: color-mix(in srgb, var(--secondary-color), rgb(255, 255, 255) 93%);
+    padding: .5rem;
+    margin: .2rem;
+}
 
 
-    #movement-diagrams div {
-        border: solid 2px var(--secondary-color);
-        padding: 1rem;
-        margin: 1rem;
-        min-height: 664px;
-    }
+#radiodiv {
+    display: grid;
+    justify-content: center;
+}
 
-    .diagramc {
-        width: 90%;
-    }
+#radiodiv label {
+    border: 1px solid var(--secondary-color);
+    background-color: color-mix(in srgb, var(--accent-color), rgb(255, 255, 255) 93%);;
+    display: flex;
+    padding: 1rem;
+    margin: .5rem;
+}
 
-    footer {
-        background-color: var(--main-color);
-        color: var(--accent-color);
-        text-align: center;
-        padding: 1rem;
-        font-family: var(--main-font);
-    }
-    
-    footer a {
-        color: var(--accent-color);
-        text-decoration: none;
-    }
+#divformdescription {
+    justify-content: center;
+    padding: .5rem;
+    margin: .5rem;
+    display: grid;
+}
 
-    footer a:hover {
-        color: var(--secondary-color);
-    }
+
+#movement-diagrams div {
+    border: solid 2px var(--secondary-color);
+    padding: 1rem;
+    margin: 1rem;
+    min-height: 664px;
+}
+
+.diagramc {
+    width: 90%;
+}
+
+#funchessfactsection {
+    grid-column: 1/-1;
+    margin: 0 auto;
+    width: 90%;
+    border-color: var(--accent-color);
+}
+
+#chessfactbutton {
+    padding: 1rem;
+    border-radius: 20px;
+    border: solid 2px var(--secondary-color);
+}
+
+#chessfactbutton:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border: solid 2px var(--accent-color);
+}
+
+#factarea {
+    padding: .2rem;
+}
+
+footer {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    text-align: center;
+    padding: 1rem;
+    font-family: var(--main-font);
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
