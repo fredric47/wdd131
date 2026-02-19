@@ -1,0 +1,16 @@
+@media screen and (min-width: 1000px) {
+
+    #homesection p {
+            font-size: var(--font-size-large);
+    }
+
+    #formdescription {
+        width: 30vw;
+    }
+
+    #movement-diagrams {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}

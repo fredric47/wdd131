@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knights of the Square Board contact us</title>
+    <meta name="description" content="Contact us at Knights of The Square Bord and get your questions answered today.">
+    <meta name="author" content="Luke Pratt">
+    <link rel="stylesheet" href="styles/knights-otsb-mobile.css">
+    <link rel="stylesheet" href="styles/knights-otsb-medium.css">
+    <link rel="stylesheet" href="styles/knights-otsb-wide.css">
+    <script src="scripts/knights-otsb.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=New+Rocker&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Knights of the Square Board</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="learnchess.html" id="navlearnchess">Learn Chess</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sectioncontactus">
+            <h2>Contact Us</h2>
+            <div>
+                <img src="images/castlesnow.webp" alt="snowy castle in forest">
+            </div>
+            <div>
+                <p><strong>Phone:</strong> <span id="phonenumber">1-234-567-8910</span></p>
+                <p><strong>Email:</strong> <span id="email">knightsotsb@snailmail.com</span></p>
+                <p><strong>Address:</strong> <span id="address">Not to far north, just right south</span></p>
+            </div>
+        </section>
+            
+        <section id="sectionform">
+
+            <h2>Something Else?</h2>
+
+            <form method="get"  action="thankyou.html"">
+                <fieldset id="fieldsetform">
+
+                    <h2>How can we help you*</h2>
+
+                    <div id="radiodiv">
+
+                        <label for="how1">
+                            <input type="radio" name="howtohelp" id="how1" class="radioclass" required>
+                            <div>I want to ask a question</div>
+                        </label>
+
+                        <label for="how2">
+                            <input type="radio" name="howtohelp" id="how2" class="radioclass">
+                            <div>I want to sugest a new feature</div>
+                        </label>
+
+                        <label for="how3">
+                            <input type="radio" name="howtohelp" id="how3" class="radioclass">
+                            <div>I want to report a bug</div>
+                        </label>
+
+                        <label for="how4">
+                            <input type="radio" name="howtohelp" id="how4" class="radioclass">
+                            <div>Something else</div>
+                        </label>
+
+                    </div>
+
+                    <div id="divformdescription">
+                        <label for="formdescription">Please explain*</label>
+                        <input type="text" name="description" id="formdescription" required>
+                    </div>
+
+                    <div id="submitdiv">
+                        <input type="submit" name="submit" value="Send Message" id="submitbutton">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©️<span id="currentYear"></span> | Luke Pratt | USA</p>
+        <p id="lastModified"></p>
+        <a href="references.html">Reference Information</a>
+    </footer>
+</body>
+
+</html>
